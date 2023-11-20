@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Morador</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style/login-morador.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,11 +25,14 @@
         <div class="conteiner">
             <div class="nome">
                 <p>Digite seu nome:</p>
-                <input type="text">
+                <input type="text" placeholder="  Ex:Júlia;João;Angelica;Guilherme...">
             </div>
             <div class="data">
                 <p>Data de Nascimento:</p>
-                <input type="date">
+                <input type="number">
+                <input type="number">
+                <input type="number" class="ano" min="1901" max="2200">
+
             </div>
             <div class="email">
                 <p>Digite seu Email:</p>
@@ -32,7 +42,7 @@
                 <p>Digite seu Número:</p>
                 <input type="number">
                 <input type="number">
-                <input type="number">
+                <input type="number" max="3">
             </div>
             <div class="senha">
                 <p>Senha:</p>
@@ -48,7 +58,7 @@
                 <a href="#"><div class="continuar"></div></a>
             </div>
         </div>
-
+        <script src="../js/script.js"></script>
     </main>
 </body>
 </html>
